@@ -1,13 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
+import Header from "./Header";
 
-export class Main extends Component {
-	render() {
-		return (
-			<div className="main">
-				<h2>This is from main component</h2>
-			</div>
-		);
-	}
-}
+const Main = () => {
+	return (
+		<div className="main">
+			<Header />
+		</div>
+	);
+};
 
 export default Main;
